@@ -142,6 +142,7 @@ public class MainActivity extends AppCompatActivity {
                     sayac = 1;
                     yenile();
                     textView4.setText("");
+                    cevaplar.clear();
                     reset.setEnabled(false);
                     reset.setVisibility(View.INVISIBLE);
                 }
